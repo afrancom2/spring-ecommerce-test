@@ -10,7 +10,7 @@
 >I have implemented two Rest endpoints due ambiguity in the final response
 
 #### Curl one
-```json
+```bash
 curl --location --request GET 'http://localhost:8080/api/price' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -19,7 +19,7 @@ curl --location --request GET 'http://localhost:8080/api/price' \
 }'
 ```
 #### Response curl one
-```json
+```bash
 {
     "id": 2,
     "brandId": 1,
@@ -36,7 +36,7 @@ curl --location --request GET 'http://localhost:8080/api/price' \
 ![Alt text](https://github.com/afrancom2/spring-ecommerce-text/blob/master/responsecurlone.png "Curl One")
 
 #### Curl two
-```json
+```bash
 curl --location --request GET 'http://localhost:8080/api/priceString' \
 --header 'Content-Type: application/json' \
 --data '{
@@ -45,7 +45,7 @@ curl --location --request GET 'http://localhost:8080/api/priceString' \
 }'
 ```
 #### Response curl two
-```json
+```bash
 {
     "productId": 35455,
     "chain": "request at 10:00 a. m. on the 14 for the product 35455 for brand 1",
