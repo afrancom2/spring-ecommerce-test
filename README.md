@@ -33,7 +33,7 @@ curl --location --request GET 'http://localhost:8080/api/price' \
 }
 ```
 
-![Alt text](https://github.com/afrancom2/spring-ecommerce-text/blob/master/responsecurlone.png "Curl One")
+![Alt text](https://github.com/afrancom2/spring-ecommerce-test/blob/master/src/main/responsecurlone.png "Curl One")
 
 #### Curl two
 ```bash
@@ -54,4 +54,4 @@ curl --location --request GET 'http://localhost:8080/api/priceString' \
 }
 ```
 
-![Alt text](https://github.com/afrancom2/spring-ecommerce-text/blob/master/responsecurlone.png "Curl One")
+![Alt text](https://github.com/afrancom2/spring-ecommerce-test/blob/master/src/main/responsecurltwo.png "Curl Two")
